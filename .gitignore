@@ -1,0 +1,14 @@
+# Hugo
+/public/
+/resources/
+.hugo_build.lock
+tmp/
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
