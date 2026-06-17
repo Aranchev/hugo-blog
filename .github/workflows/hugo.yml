@@ -11,12 +11,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: recursive
+          submodules: false        # Changed to false for beginners
           fetch-depth: 0
 
       - uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.163.0'
+          hugo-version: 'latest'   # Use latest version
           extended: true
 
       - name: Build
