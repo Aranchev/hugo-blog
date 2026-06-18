@@ -1,0 +1,11 @@
+disabled = false
+locale = "bg"
+label = "Български"
+weight = 2
+title = "Аранчев"
+
+[params]
+  displayName = "BG"
+  isoCode = "bg"
+  rtl = false
+  dateFormat = "2 January 2006"
