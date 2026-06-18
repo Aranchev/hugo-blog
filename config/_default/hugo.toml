@@ -20,7 +20,15 @@ enableEmoji = true
 
 # googleAnalytics = "G-XXXXXXXXX"
 
+[languages.en]
+contentDir = "content/en"
+languageName = "English"
+weight = 1
 
+[languages.bg]
+contentDir = "content/bg"
+languageName = "Bulgarian"
+weight = 2
 
 [pagination]
   pagerSize = 100
